@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3ffe6"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f3ffe6"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#f3ffe6"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/play2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:text="[Start an activity]"
+            android:textSize="20dp"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:textColor="#339966"
+            android:gravity="center"
+            android:text="MONDAY" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:textSize="130dp"
+            android:text="27"
+            android:padding="0dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp
+"
+    android:background="#004d4d">
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="#00b3b3"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="#00b3b3"
+            app:srcCompat="@mipmap/list" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Activity Feed"
+            android:textColor="#ffffff"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:background="#00b3b3"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#00b3b3"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/sms" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Messages"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="#004d4d">
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:background="#00b3b3"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="#00b3b3"
+                app:srcCompat="@mipmap/doc" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Documents"
+                android:textColor="#ffffff"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="#00b3b3"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#00b3b3"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/user" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="Profile"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
